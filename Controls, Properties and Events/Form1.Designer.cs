@@ -113,6 +113,7 @@
             this.Controls.Add(this.lblInstruction);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.imgCharacter);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "MainForm";
             this.Text = "Controls, Events and Properties";
             ((System.ComponentModel.ISupportInitialize)(this.imgCharacter)).EndInit();
