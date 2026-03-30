@@ -40,17 +40,17 @@
             // imgCharacter
             // 
             this.imgCharacter.Image = ((System.Drawing.Image)(resources.GetObject("imgCharacter.Image")));
-            this.imgCharacter.Location = new System.Drawing.Point(28, 107);
+            this.imgCharacter.Location = new System.Drawing.Point(-53, 89);
             this.imgCharacter.Name = "imgCharacter";
-            this.imgCharacter.Size = new System.Drawing.Size(284, 285);
-            this.imgCharacter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgCharacter.Size = new System.Drawing.Size(477, 339);
+            this.imgCharacter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgCharacter.TabIndex = 0;
             this.imgCharacter.TabStop = false;
             this.imgCharacter.Visible = false;
             // 
             // btnSubmit
             // 
-            this.btnSubmit.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnSubmit.BackColor = System.Drawing.Color.Transparent;
             this.btnSubmit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSubmit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -67,7 +67,7 @@
             // lblInstruction
             // 
             this.lblInstruction.AutoSize = true;
-            this.lblInstruction.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblInstruction.BackColor = System.Drawing.Color.Transparent;
             this.lblInstruction.Font = new System.Drawing.Font("Old English Text MT", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInstruction.Location = new System.Drawing.Point(247, 24);
             this.lblInstruction.Name = "lblInstruction";
@@ -78,7 +78,7 @@
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblStatus.BackColor = System.Drawing.Color.Transparent;
             this.lblStatus.Font = new System.Drawing.Font("Old English Text MT", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStatus.Location = new System.Drawing.Point(455, 89);
             this.lblStatus.Name = "lblStatus";
@@ -88,7 +88,7 @@
             // 
             // btnQuit
             // 
-            this.btnQuit.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnQuit.BackColor = System.Drawing.Color.Transparent;
             this.btnQuit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnQuit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnQuit.Font = new System.Drawing.Font("Kristen ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -105,6 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(857, 482);
             this.Controls.Add(this.btnQuit);
             this.Controls.Add(this.lblStatus);
