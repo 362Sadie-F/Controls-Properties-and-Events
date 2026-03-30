@@ -22,5 +22,15 @@ namespace Controls__Properties_and_Events
             imgCharacter.Visible = true;
             lblStatus.Text = "Status: Clicked";
         }
+
+        private void btnSubmit_ForeColorChanged(object sender, EventArgs e)
+        {
+            this.ForeColor = Color.DarkRed;
+        }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
