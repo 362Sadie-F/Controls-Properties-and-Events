@@ -24,6 +24,7 @@ namespace Controls__Properties_and_Events
             btnQuit.Visible = true;   
             this.BackColor = Color.Black;
             this.ForeColor = Color.DarkRed;
+            //lblInstruction.Font = 
         }
 
         private void btnSubmit_ForeColorChanged(object sender, EventArgs e)
@@ -36,5 +37,9 @@ namespace Controls__Properties_and_Events
             Close();
         }
 
+        private void lblInstruction_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

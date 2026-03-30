@@ -74,6 +74,7 @@
             this.lblInstruction.Size = new System.Drawing.Size(598, 44);
             this.lblInstruction.TabIndex = 2;
             this.lblInstruction.Text = "Click on the Button or the Picture Box";
+            this.lblInstruction.Click += new System.EventHandler(this.lblInstruction_Click);
             // 
             // lblStatus
             // 
