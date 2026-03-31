@@ -21,10 +21,11 @@ namespace Controls__Properties_and_Events
         {
             imgCharacter.Visible = true;
             lblStatus.Text = "Status: Clicked";
-            btnQuit.Visible = true;   
+            btnQuit.Visible = true;
+            btnQuit.Enabled = true;
             this.BackColor = Color.Black;
             this.ForeColor = Color.DarkRed;
-            //lblInstruction.Font = 
+           
         }
 
         private void btnSubmit_ForeColorChanged(object sender, EventArgs e)
