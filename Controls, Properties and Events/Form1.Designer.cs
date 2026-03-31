@@ -47,6 +47,7 @@
             this.imgCharacter.TabIndex = 0;
             this.imgCharacter.TabStop = false;
             this.imgCharacter.Visible = false;
+            this.imgCharacter.Click += new System.EventHandler(this.imgCharacter_Click);
             // 
             // btnSubmit
             // 

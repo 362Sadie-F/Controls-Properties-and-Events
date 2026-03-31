@@ -34,12 +34,25 @@ namespace Controls__Properties_and_Events
 
         private void btnQuit_Click(object sender, EventArgs e)
         {
-            Close();
+           if (imgCharacter.Visible = true)
+           {
+              Close();
+           }
+           else if (imgCharacter.Visible = false)
+           {
+               
+           }
+            
         }
 
         private void lblInstruction_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void imgCharacter_Click(object sender, EventArgs e)
+        {
+            imgCharacter.Visible= false;
         }
     }
 }
