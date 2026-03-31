@@ -34,13 +34,14 @@ namespace Controls__Properties_and_Events
 
         private void btnQuit_Click(object sender, EventArgs e)
         {
-           if (imgCharacter.Visible = true)
+           if (imgCharacter.Visible == true)
            {
-              Close();
+                btnQuit.Enabled = true;
+                Close();
            }
-           else if (imgCharacter.Visible = false)
+           else if (imgCharacter.Visible == false)
            {
-               
+               btnQuit.Enabled = false;
            }
             
         }
